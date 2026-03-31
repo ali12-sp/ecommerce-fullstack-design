@@ -48,14 +48,16 @@ npm run dev
 
 Frontend runs on `http://localhost:3000`
 
-## Test login
-Admin:
-- email: `admin@brand.com`
-- password: `admin123`
+## Seeded accounts
+`npm run seed` creates one admin account and one user account for local testing.
 
-User:
-- email: `user@brand.com`
-- password: `user123`
+- Set optional environment variables before seeding if you want fixed credentials:
+- `SEED_ADMIN_EMAIL`
+- `SEED_ADMIN_PASSWORD`
+- `SEED_USER_EMAIL`
+- `SEED_USER_PASSWORD`
+
+If you do not provide seed passwords, the script generates fresh passwords and prints the login details in the terminal after seeding.
 
 ## What is included
 - Home page with working catalog search entry points
@@ -69,7 +71,7 @@ User:
 - JWT auth with login, signup, and protected flows
 - Responsive layout for desktop and mobile
 - Local cart and auth persistence with `localStorage`
-- Seed script for sample products, demo accounts, and CMS defaults
+- Seed script for sample products, seeded accounts, and CMS defaults
 
 ## Notes
 - `server/.env` in the current workspace contains live-looking secrets and should be rotated before any public deployment.
