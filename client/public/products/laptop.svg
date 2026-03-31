@@ -1,0 +1,5 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="24" fill="#f7e2d5"/>
+  <rect x="110" y="180" width="380" height="240" rx="24" fill="#ffffff" fill-opacity="0.7"/>
+  <text x="300" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#5a6b7f">Laptop</text>
+</svg>

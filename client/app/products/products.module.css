@@ -1,0 +1,13 @@
+.wrapper { display: grid; grid-template-columns: 260px 1fr; gap: 18px; margin-top: 22px; }
+.sidebar { padding: 18px; height: fit-content; }
+.sidebar h3 { margin-top: 0; }
+.filterItem { display: flex; gap: 10px; padding: 8px 0; color: #526375; }
+.content { display: grid; gap: 18px; }
+.toolbar { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center; padding: 14px; }
+.toolbar input { border: 1px solid #d2dae4; border-radius: 8px; padding: 12px; }
+.viewButtons { display: flex; gap: 8px; }
+.listWrap { display: grid; gap: 16px; }
+@media (max-width: 900px) {
+  .wrapper { grid-template-columns: 1fr; }
+  .toolbar { grid-template-columns: 1fr; }
+}

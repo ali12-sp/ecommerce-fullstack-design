@@ -1,0 +1,18 @@
+.wrapper { display: grid; gap: 18px; margin-top: 22px; }
+.main { display: grid; grid-template-columns: 420px 1fr; gap: 24px; padding: 18px; }
+.image { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 12px; background: #f2f4f7; }
+.stock { color: #28a745; font-weight: 700; margin-bottom: 10px; }
+.info h1 { margin: 0 0 10px; font-size: 40px; }
+.rating { margin-bottom: 18px; }
+.priceBox { display: grid; grid-template-columns: repeat(3, 1fr); background: #fff6ea; border-radius: 10px; overflow: hidden; margin-bottom: 18px; }
+.priceBox div { padding: 18px; border-right: 1px solid #eadac5; display: grid; gap: 8px; }
+.priceBox strong { font-size: 28px; }
+.priceBox span { color: #6f7f92; }
+.metaTable { display: grid; grid-template-columns: 140px 1fr; gap: 12px 18px; padding: 12px 0; border-top: 1px solid #ecf0f4; border-bottom: 1px solid #ecf0f4; }
+.actions { display: flex; gap: 12px; margin-top: 20px; }
+.description { padding: 20px; }
+@media (max-width: 900px) {
+  .main { grid-template-columns: 1fr; }
+  .info h1 { font-size: 28px; }
+  .priceBox { grid-template-columns: 1fr; }
+}

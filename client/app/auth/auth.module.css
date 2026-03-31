@@ -1,0 +1,4 @@
+.wrap { display: grid; place-items: center; min-height: 60vh; }
+.form { width: min(460px, 100%); padding: 24px; display: grid; gap: 14px; }
+.form input { border: 1px solid #d2dae4; border-radius: 8px; padding: 14px; }
+.error { color: #e53935; margin: 0; }

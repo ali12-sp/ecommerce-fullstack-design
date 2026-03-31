@@ -1,0 +1,24 @@
+.wrapper { display: grid; grid-template-columns: 1fr 320px; gap: 18px; margin-top: 22px; }
+.list { display: grid; gap: 16px; }
+.item { display: grid; grid-template-columns: 120px 1fr 180px; gap: 16px; padding: 14px; align-items: center; }
+.item img { width: 120px; height: 120px; object-fit: cover; border-radius: 8px; background: #f1f3f6; }
+.item h3 { margin: 0 0 8px; }
+.actions { margin-top: 10px; }
+.priceSide { display: grid; justify-items: end; gap: 12px; }
+.priceSide strong { font-size: 28px; }
+.priceSide select, .couponRow input { border: 1px solid #d2dae4; border-radius: 8px; padding: 12px; width: 100%; }
+.bottomActions { display: flex; justify-content: space-between; margin-top: 18px; }
+.summaryCol { display: grid; gap: 14px; align-content: start; }
+.coupon, .summary { padding: 16px; }
+.couponRow { display: grid; grid-template-columns: 1fr auto; gap: 10px; }
+.summary { display: grid; gap: 14px; }
+.summary > div { display: flex; justify-content: space-between; }
+.total { padding-top: 14px; border-top: 1px solid #e6ebf1; font-size: 22px; }
+.checkout { margin-top: 8px; background: #21a43a; }
+.red { color: #f44336; }
+.green { color: #2e9e43; }
+@media (max-width: 900px) {
+  .wrapper { grid-template-columns: 1fr; }
+  .item { grid-template-columns: 1fr; }
+  .priceSide { justify-items: start; }
+}

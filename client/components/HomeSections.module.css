@@ -1,0 +1,24 @@
+.heroWrap { display: grid; grid-template-columns: 240px 1fr 260px; gap: 18px; margin-top: 22px; }
+.sidebar { padding: 12px; }
+.sideLink { padding: 12px 10px; border-radius: 8px; color: #516173; }
+.sideLink:hover { background: #eff4ff; color: #0d6efd; }
+.hero { min-height: 320px; background: linear-gradient(120deg, #b2edd7, #d7f7ef); padding: 42px; display: flex; align-items: center; background-size: cover; }
+.hero h1 { font-size: 52px; margin: 0 0 18px; }
+.promos { display: grid; gap: 14px; }
+.promoBox, .orange, .teal { padding: 18px; min-height: 97px; }
+.orange { background: #ef8a3b; color: white; }
+.teal { background: #4fb3c0; color: white; }
+.dealRow { display: grid; grid-template-columns: 220px repeat(5, 1fr); gap: 0; margin-top: 24px; border: 1px solid #dde3ea; border-radius: 8px; overflow: hidden; background: white; }
+.dealIntro, .dealCard { border-right: 1px solid #dde3ea; padding: 18px; }
+.dealCard img { aspect-ratio: 1 / 1; object-fit: cover; margin-bottom: 10px; background: #f1f3f5; }
+.dealCard span { display: inline-block; background: #fde9ea; color: #d25b66; padding: 6px 10px; border-radius: 999px; margin-top: 10px; }
+@media (max-width: 1000px) {
+  .heroWrap { grid-template-columns: 1fr; }
+  .dealRow { grid-template-columns: repeat(2, 1fr); }
+  .dealIntro { grid-column: 1 / -1; border-right: none; border-bottom: 1px solid #dde3ea; }
+}
+@media (max-width: 760px) {
+  .hero { min-height: 220px; padding: 24px; }
+  .hero h1 { font-size: 34px; }
+  .dealRow { grid-template-columns: repeat(2, 1fr); }
+}

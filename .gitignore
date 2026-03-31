@@ -1,0 +1,17 @@
+client/node_modules/
+client/.next/
+client/dev-server.out.log
+client/dev-server.err.log
+client/dev-server.log
+client/tsconfig.tsbuildinfo
+client/.env.local
+
+server/node_modules/
+server/.env
+server/uploads/*
+!server/uploads/.gitkeep
+
+*.log
+codealpha.pdf
+codealpha-correct.pdf
+interns.pdf

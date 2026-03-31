@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": "u_admin",
+      "name": "Admin",
+      "email": "admin@brand.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "u_user",
+      "name": "Test User",
+      "email": "user@brand.com",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": "u_1774422607882",
+      "name": "Ali Raza",
+      "email": "alirazabacha060@gmail.com",
+      "password": "12345678",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "p_1",
+      "name": "Smart Watch Series 9",
+      "price": 99.5,
+      "image": "/products/watch.svg",
+      "description": "Modern smart watch with health tracking and clean minimalist design.",
+      "category": "Smart watches",
+      "stock": 16,
+      "rating": 4.7
+    },
+    {
+      "id": "p_2",
+      "name": "Ultra Laptop Pro",
+      "price": 799,
+      "image": "/products/laptop.svg",
+      "description": "Thin laptop for work, classes, and creative tasks with long battery life.",
+      "category": "Laptops",
+      "stock": 10,
+      "rating": 4.8
+    },
+    {
+      "id": "p_3",
+      "name": "GoPro Hero Camera",
+      "price": 249,
+      "image": "/products/camera.svg",
+      "description": "Action camera for travel and outdoor adventures with crisp video capture.",
+      "category": "Cameras",
+      "stock": 8,
+      "rating": 4.6
+    },
+    {
+      "id": "p_4",
+      "name": "Wireless Headphones Max",
+      "price": 89.99,
+      "image": "/products/headphone.svg",
+      "description": "Comfortable noise-isolating headphones with modern over-ear finish.",
+      "category": "Headphones",
+      "stock": 21,
+      "rating": 4.5
+    },
+    {
+      "id": "p_5",
+      "name": "Smartphone X12",
+      "price": 599,
+      "image": "/products/phone.svg",
+      "description": "Bright display smartphone with smooth performance and excellent battery.",
+      "category": "Smartphones",
+      "stock": 14,
+      "rating": 4.7
+    },
+    {
+      "id": "p_6",
+      "name": "Winter Jacket Street",
+      "price": 120,
+      "image": "/products/jacket.svg",
+      "description": "Warm casual jacket inspired by the product cards shown in the design.",
+      "category": "Clothes and wear",
+      "stock": 12,
+      "rating": 4.3
+    },
+    {
+      "id": "p_7",
+      "name": "Urban Travel Backpack",
+      "price": 49.99,
+      "image": "/products/bag.svg",
+      "description": "Lightweight bag for everyday carry, office, class, or weekend use.",
+      "category": "Bags",
+      "stock": 30,
+      "rating": 4.4
+    },
+    {
+      "id": "p_8",
+      "name": "Kitchen Electric Kettle",
+      "price": 39.99,
+      "image": "/products/kettle.svg",
+      "description": "Compact appliance with clean shape that matches the catalog design.",
+      "category": "Home appliance",
+      "stock": 25,
+      "rating": 4.2
+    }
+  ]
+}

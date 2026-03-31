@@ -1,0 +1,13 @@
+.card { display: grid; grid-template-columns: 220px 1fr; gap: 18px; padding: 18px; }
+.image { width: 220px; height: 220px; object-fit: cover; border-radius: 8px; background: #f2f4f7; }
+.body h3 { margin: 0 0 10px; font-size: 26px; }
+.price { font-size: 32px; font-weight: 700; margin-bottom: 10px; }
+.meta { display: flex; gap: 18px; color: #4f8d31; margin: 10px 0 16px; flex-wrap: wrap; }
+.actions { display: flex; gap: 12px; }
+@media (max-width: 760px) {
+  .card { grid-template-columns: 1fr; }
+  .image { width: 100%; height: auto; aspect-ratio: 1 / 1; }
+  .body h3 { font-size: 20px; }
+  .price { font-size: 24px; }
+  .actions { flex-direction: column; }
+}
